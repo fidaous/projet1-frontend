@@ -7,10 +7,11 @@
  body{
   font-family: 'Roboto', sans-serif;
   background-color: hsl(214, 89%, 48%);
+  margin:0;
 }
 
 header{
-  background-color: hsl(214, 89%, 48%);
+  background-color: hsl(214, 76%, 43%);
   display: flex;
   justify-content: space-between;
 }
@@ -26,16 +27,38 @@ color: white;
   display: flex;
   color:white;
   margin-right: 15px;
+  filter: invert(100%);
+  margin-top: 20px;
+  height: 20px;
+  width: 20px;
 }
+
+
+  
 
 .recherche .boutton{
   display: inline-flex;
   justify-content: space-between;
   color:rgb(240, 240, 247);
-  background-color: hsl(214, 89%, 48%);
+  background-color: hsl(214, 76%, 43%);
   border: 1px solid white;
   border-radius: 5px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size:12px ;
   
+  
+}
+button.boutton img{
+  filter:invert(100%);
+  width: 20px;
+	height: 20px;
+  margin-left: 10px;
+
 }
 
 
@@ -72,6 +95,12 @@ color: white;
     grid-template-columns: 50% 50%;
   
   }
+
+  .continair-A h1{
+    font-size: 64px;
+    height: 700;
+     line-height: 76px;
+  }
   .continair-A input{
     
     border: 1px solid white;
@@ -79,15 +108,22 @@ color: white;
      color: white;
      padding: 10px;
     border-radius: 5px;
-    height: 40px;
-    width: 200px;
+    height: 50px;
+    width: 230px;
+    font-weight: bold;
+    margin-top: 25px;
 
      }
    
    .makemagic {
      text-align: center;
      color: white;
-     padding-top: 200px;
+     padding-top: 100px;
+   }
+   .makemagic p{
+     line-height: 25px;
+     text-align: center;
+     font-size: 15px;
    }
   
   
@@ -99,8 +135,15 @@ color: white;
      text-align: center;
      background-color: white;
    }
+
+   .what h1{
+    font-size: 40px;
+    height: 700;      /*line-height: 50px*/
+   }
    .what p{
-     color:gray;
+     color:rgb(173, 171, 171);
+     line-height: 25px;
+     font-size: 15px;
    }
 
    .continair-B{
@@ -116,6 +159,26 @@ color: white;
      padding-top: 50px;
      padding-left: 50px;
    }
+.howdo h1{ 
+  font-size: 40px;
+  height: 700;
+  line-height: 50px;
+}
+.howdo p{
+  font-size: 15px;
+ line-height: 25px;
+ 
+  }
+  .howdo a{
+    display:inline-block;
+    padding-top: 20px;
+    text-decoration: none;
+   
+  }
+  
+
+
+   
 
    .continair-B img{
      max-width: 100%;
@@ -134,14 +197,20 @@ color: white;
      box-shadow:  4px 8px 0 rgba(218, 214, 214, 0.2), 0 6px 20px 0 rgba(240, 235, 235, 0.19);
 
    }
+
+   .doyou p{
+     font-size: 20px;
+   }
    .doyou input{
-     border: 1px solid white;
+    border: 1px solid white;
      background-color: rgb(11, 109, 238);
      color: white;
      padding: 10px;
     border-radius: 5px;
-    height: 40px;
-    width: 200px;
+    height: 50px;
+    width: 230px;
+    font-weight: bold;
+    margin-top: 25px;
   
    }
    
@@ -187,20 +256,26 @@ color: white;
     
     
   }
-
-  .ourvalues{
+ .valuesliste{
+    display: flex;
+    align-content: center;
     text-align: left;
-    margin: 0 0 0 10;
-    padding :0 20px 20px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
   }
- .ourvalues li.ourvalues{
+.ourvalues li.ourvalues{
    border-bottom: 1px solid white;
  }
+ 
+ 
  
 
  
  .li, ul{
    color:white;
+   list-style: none;
 
  }
 li,ul, a{
@@ -209,21 +284,50 @@ li,ul, a{
 }
 
 .contact{
-display: grid;
-grid-template-columns: 70% 30%;
+display: flex;
+
 height: 700px;
 background-color: white;
 }
-.contactus .p{
-  color:grey;
+.contact h1{
+  margin-left: 200px;
+  font-size: 40px;
+  padding-top: 60px;
 }
 
+.contactus{
+  height: 700px;
+  width: 800px;
+
+}
 
 
 .contactus img{
   height: 500px;
-  width: 500px;
+  width: 550px;
+  margin-left:195px;
 }
+
+
+.carrebleu{
+  height: 310px;
+  width: 315px;
+  background-color: RGB(223, 240, 255);
+  padding-top: 10px;
+  margin-left: 30px;
+}
+.imagecote img{
+  margin: 20px;
+}
+
+.imagecote p{
+  margin:10px;
+}
+
+
+
+
+
 
   
 
