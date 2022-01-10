@@ -14,6 +14,13 @@ header{
   background-color: hsl(214, 76%, 43%);
   display: flex;
   justify-content: space-between;
+  box-shadow: 10px;
+  height: 70px;
+}
+
+.logo{
+  margin-top: 12px;
+  margin-left: 5px;
 }
 
 .recherche{
@@ -50,6 +57,8 @@ color: white;
   margin-top: 10px;
   font-weight: bold;
   font-size:12px ;
+  height: 40px;
+  margin-right: 5px;
   
   
 }
@@ -103,7 +112,7 @@ button.boutton img{
   }
   .continair-A input{
     
-    border: 1px solid white;
+     border: 1px solid white;
      background-color: rgb(11, 109, 238);
      color: white;
      padding: 10px;
@@ -181,7 +190,9 @@ button.boutton img{
    
 
    .continair-B img{
-     max-width: 100%;
+    /*max-width: 100%;*/
+    height: 453px;
+    width: 759px;
      
    }
    
@@ -193,7 +204,8 @@ button.boutton img{
      padding:70px 30px;
      text-align: center;
      background-color:rgb(250, 248, 248);
-     border-top: 1px solid rgb(175, 171, 171);
+     border-top: 2px solid rgb(218, 214, 214);
+     border-bottom: 2px solid rgb(218, 214, 214);
      box-shadow:  4px 8px 0 rgba(218, 214, 214, 0.2), 0 6px 20px 0 rgba(240, 235, 235, 0.19);
 
    }
@@ -219,7 +231,7 @@ button.boutton img{
     max-width: 100%;
     min-width: 400px;
     margin: 0;
-    padding:70px 30px;
+    padding:80px 30px;
     text-align: center;
     background-color: white;
    border-bottom: 2px solid rgb(211, 207, 207);
@@ -262,12 +274,40 @@ button.boutton img{
     text-align: left;
     flex-direction: column;
     align-items: flex-start;
+    margin-left: 35px;
+    
+
     
     
   }
-.ourvalues li.ourvalues{
+/*.ourvalues li.ourvalues{
    border-bottom: 1px solid white;
  }
+ /*.ourvalues span {
+   display:inline-flex;
+   text-align: right;
+ }
+.spn1{
+   display: flex;
+ }*/
+.ourvalues li{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+  line-height: 2.5;
+  margin-top: 7px;
+}
+
+.ourvalues h2{
+  margin-left: 35px;
+  font-size: 40px;
+  margin-top: 33px;
+  padding-top: 10px;
+}
+
+ 
+ 
  
  
  
@@ -285,9 +325,12 @@ li,ul, a{
 
 .contact{
 display: flex;
-
-height: 700px;
+height: 798px;
 background-color: white;
+}
+.contact p{
+   margin-left: 200px;
+    color: grey;
 }
 .contact h1{
   margin-left: 200px;
@@ -297,15 +340,15 @@ background-color: white;
 
 .contactus{
   height: 700px;
-  width: 800px;
+  width: 100%;
 
 }
 
 
 .contactus img{
   height: 500px;
-  width: 550px;
-  margin-left:195px;
+  width: 560px;
+  margin-left:220px;
 }
 
 
@@ -314,7 +357,8 @@ background-color: white;
   width: 315px;
   background-color: RGB(223, 240, 255);
   padding-top: 10px;
-  margin-left: 30px;
+  margin-right: 300px;
+  margin-top: 205px;
 }
 .imagecote img{
   margin: 20px;
